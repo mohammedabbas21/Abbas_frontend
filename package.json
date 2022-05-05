@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "jsonbackend": "npx json-server --watch -p 7674 db.json"
   },
   "dependencies": {
     "core-js": "^3.6.5",
